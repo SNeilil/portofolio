@@ -52,14 +52,14 @@
         <h1
           class="3xl:text-8xl 2xl:text-7xl xl:text-6xl lg:text-4xl md:text-3xl sm:text-3xl text-xl font-Eczar font-bold leading-tight text-gray-700"
         >
-          It's
+          Aku
           <a
             href="https://www.linkedin.com/"
             target="_blank"
             class="text-black hover:underline"
           >
-            Aliza Khan</a
-          >🙇‍♀️<br />Creative Designer and Storyteller
+            Sabila Neilil</a
+          >🙇‍♀️<br />Seorang programmer
         </h1>
 
         <div class="md:flex gap-1 md:gap-10">
@@ -85,15 +85,15 @@
   </div>
 
   <div class="banner-2 space-y-10 pb-20" id="work">
-    <h3 class="heading3 my-5">My Recent Work</h3>
+    <h3 class="heading3 my-5">Project</h3>
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">Sheepify States</h4>
+        <h4 class="project-title item">Manajement Usaha</h4>
         <p class="font-work_sans pr-12">
-          Designed some empty state screens in kawaii style for the popular
-          sheepify app.Tailwind lets you conditionally apply utility classes in
-          different states using variant modifiers. For example, use hover:gap-6
-          to only apply the gap-6 utility
+          sistem menajemen usaha adalah sistem yang digunakan UMKM untuk
+          mengelola bisnisnya, mulai mengelola bahan yang di beli, product yang
+          terjual, keuntungan, dan kerugian Sistem ini tampilannya menggunakan
+          Vue dan API menggunakan laravel.
         </p>
         <button class="text-sky-800 font-bold text-2xl tracking-wider">
           View Case Study
@@ -109,12 +109,32 @@
 
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">Sheepify States</h4>
+        <h4 class="project-title item">Pendaftaran Online</h4>
         <p class="font-work_sans pr-12">
-          Designed some empty state screens in kawaii style for the popular
-          sheepify app.Tailwind lets you conditionally apply utility classes in
-          different states using variant modifiers. For example, use hover:gap-6
-          to only apply the gap-6 utility
+          Pendaftaran online ini di gunakan untuk pendaftaran booking kuota
+          dokter yang sedang praktik. sistem ini menggunakan laravel dan
+          tampilan menggunakan blade
+        </p>
+        <button class="text-sky-800 font-bold text-2xl tracking-wider">
+          View Case Study
+        </button>
+      </div>
+      <div class="card-image">
+        <img
+          class="object-cover w-full h-48 md:h-96"
+          src="./assets/project2.png"
+        />
+      </div>
+    </div>
+    <div class="card">
+      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+        <h4 class="project-title item">Penomeran</h4>
+        <p class="font-work_sans pr-12">
+          Sistem penomeran digunakan sekertaris untuk mengelola dan menghasilkan
+          nomer surat secara terstruktur dan otomatis. selain itu sistem juga
+          bisa menyimpan file dari surat dan di jadikan barcode. Sistem ini
+          dibangun menggunakan Laravel sebagai backend dan Blade sebagai
+          tampilan antarmuka.
         </p>
         <button class="text-sky-800 font-bold text-2xl tracking-wider">
           View Case Study
@@ -130,12 +150,11 @@
 
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title">Sheepify States</h4>
+        <h4 class="project-title">Diklat</h4>
         <p class="font-work_sans pr-12">
-          Designed some empty state screens in kawaii style for the popular
-          sheepify app.Tailwind lets you conditionally apply utility classes in
-          different states using variant modifiers. For example, use hover:gap-6
-          to only apply the gap-6 utility
+          sistem diklat ini digunakan manajement untuk mencatat dan menghitung
+          score perolehan dari diklat setiap karyawan. sistem ini dirancang
+          menggunakan laravel dengan tampilan blade
         </p>
         <button class="text-sky-800 font-bold text-2xl tracking-wider">
           View Case Study
@@ -152,9 +171,9 @@
 
   <div class="banner-1" id="testimonial">
     <div class="space-y-4 grid place-items-center mt-5">
-      <h3 class="heading3">Some Generous Words</h3>
+      <h3 class="heading3">Pengalaman Kerja</h3>
       <p class="font-work_sans text-gray-600 font-semibold leading-relaxed">
-        Some of my favorite testimonials from my clients
+        Pernah dan sedang bekerja di
       </p>
     </div>
     <div class="max-w-6xl mx-auto px-8 py-16">
@@ -252,20 +271,53 @@
       src="./assets/about-female.png"
       alt="user image"
     />
-    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-      <h4 class="project-title item">Sheepify States</h4>
-      <p class="font-work_sans">
-        I am Salman Khan from Lucknow, India. I am working in an Indian Startup
-        as a User Eperience Designer for the past two years.
-        <br />
-        I got featured various times on many big and small marketplaces,
-        portfolio websites and blogs. I also received some awards and
-        recognitions from some of the big and small award companies. Besides
-        designing, I like to watch anime, read books and solve sudoku.
-      </p>
-      <button class="text-sky-800 font-bold text-2xl tracking-wider">
-        View Case Study
-      </button>
+    <div class="py-10 px-6 md:px-16 md:w-1/2">
+      <h4 class="text-2xl font-semibold mb-6">Skills</h4>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Card -->
+        <div
+          class="flex flex-col items-center p-4 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 bg-white"
+        >
+          <img src="./assets/icon/Laravel-icon.png" class="w-12 mb-2" />
+          <span class="text-sm font-medium">Laravel</span>
+        </div>
+
+        <div
+          class="flex flex-col items-center p-4 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 bg-white"
+        >
+          <img src="./assets/icon/Php-icon.png" class="w-12 mb-2" />
+          <span class="text-sm font-medium">PHP</span>
+        </div>
+
+        <div
+          class="flex flex-col items-center p-4 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 bg-white"
+        >
+          <img src="./assets/icon/git.png" class="w-12 mb-2" />
+          <span class="text-sm font-medium">Git</span>
+        </div>
+
+        <div
+          class="flex flex-col items-center p-4 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 bg-white"
+        >
+          <img src="./assets/icon/React-icon.png" class="w-12 mb-2" />
+          <span class="text-sm font-medium">React</span>
+        </div>
+
+        <div
+          class="flex flex-col items-center p-4 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 bg-white"
+        >
+          <img src="./assets/icon/Tailwind-icon.png" class="w-12 mb-2" />
+          <span class="text-sm font-medium">Tailwind</span>
+        </div>
+
+        <div
+          class="flex flex-col items-center p-4 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 bg-white"
+        >
+          <img src="./assets/icon/Vuejs-icon.png" class="w-12 mb-2" />
+          <span class="text-sm font-medium">Vue</span>
+        </div>
+      </div>
     </div>
   </div>
 
