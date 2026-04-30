@@ -272,7 +272,9 @@
       alt="user image"
     />
     <div class="py-10 px-6 md:px-16 md:w-1/2">
-      <h4 class="text-2xl font-semibold mb-6">Skills</h4>
+      <h2 class="text-2xl text-gray-700 font-Eczar mb-5 font-bold mb-6">
+        Skills
+      </h2>
 
       <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
         <!-- Card -->
@@ -301,7 +303,7 @@
           class="flex flex-col items-center p-4 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 bg-white"
         >
           <img src="./assets/icon/React-icon.png" class="w-12 mb-2" />
-          <span class="text-sm font-medium">React</span>
+          <span class="text-sm font-medium">React js</span>
         </div>
 
         <div
@@ -315,100 +317,169 @@
           class="flex flex-col items-center p-4 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 bg-white"
         >
           <img src="./assets/icon/Vuejs-icon.png" class="w-12 mb-2" />
-          <span class="text-sm font-medium">Vue</span>
+          <span class="text-sm font-medium">Vue js</span>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="banner-1 flex h-full items-center">
-    <div class="w-7/12 p-12">
+  <div class="banner-1 flex h-full items-center w-full">
+    <div class="w-full">
       <h2 class="text-gray-700 md:text-6xl text-2xl font-Eczar mb-5 font-bold">
-        Let’s work together and make everything super cute and super useful.
+        Contact
       </h2>
-      <a class="underline text-2xl text-blue-600 font-work_sans"
-        >📧 hire@author.com</a
-      >
     </div>
-    <div class="w-5/12 pr-28">
-      <div class="flex flex-wrap justify-end gap-2">
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full mb-3">
+      <!-- WhatsApp -->
+      <a
+        href="https://wa.me/6281357860954"
+        target="_blank"
+        class="flex items-center gap-4 p-5 rounded-2xl bg-white shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 group"
+      >
+        <div
+          class="w-14 h-14 flex items-center justify-center rounded-full bg-green-100 group-hover:bg-green-500 transition"
         >
           <svg
-            class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
+            class="w-7 h-7 text-green-600 group-hover:text-white transition"
             viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
           >
             <path
-              d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.8"
+              d="M22 12c0 5.523-4.477 10-10 10a9.96 9.96 0 0 1-5-1.338L2 21.5l.832-5.5A10 10 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.8"
+              d="m12.96 13.868l2.08-.406l1.96.753v1.823c0 .607-.522 1.07-1.11.94c-1.523-.334-4.29-1.174-6.212-3.11c-1.83-1.843-2.455-4.41-2.668-5.827C6.925 7.474 7.374 7 7.943 7h1.894l.735 1.969l-.389 2.101"
             />
           </svg>
-        </button>
+        </div>
 
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+        <div>
+          <p class="text-sm text-gray-500">WhatsApp</p>
+          <p class="font-semibold text-gray-800 group-hover:text-green-600">
+            0813-5786-0954
+          </p>
+        </div>
+      </a>
+
+      <!-- Email -->
+      <a
+        href="mailto:sabilanm1010@gmail.com"
+        class="flex items-center gap-4 p-5 rounded-2xl bg-white shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 group"
+      >
+        <div
+          class="w-14 h-14 flex items-center justify-center rounded-full bg-red-100 group-hover:bg-red-500 transition"
         >
           <svg
-            class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
+            class="w-7 h-7 text-red-600 group-hover:text-white transition"
             viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
           >
             <path
-              d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.8"
+              d="m7 9l5 3.5L17 9"
+            />
+            <path
+              stroke-width="1.8"
+              d="M2 17V7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2Z"
             />
           </svg>
-        </button>
+        </div>
 
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+        <div>
+          <p class="text-sm text-gray-500">Email</p>
+          <p class="font-semibold text-gray-800 group-hover:text-red-600">
+            sabilanm1010@gmail.com
+          </p>
+        </div>
+      </a>
+
+      <!-- LinkedIn -->
+      <a
+        href="https://www.linkedin.com/in/sabila-neilil-muna/"
+        class="flex items-center gap-4 p-5 rounded-2xl bg-white shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 group"
+      >
+        <div
+          class="w-14 h-14 flex items-center justify-center rounded-full bg-blue-100 group-hover:bg-blue-600 transition"
         >
           <svg
-            class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
-            role="img"
+            class="w-7 h-7 text-blue-600 group-hover:text-white transition"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
           >
             <path
-              d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.8"
+              d="M21 8v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.8"
+              d="M7 17v-7M11 17v-3.25M11 10v3.75m0 0c0-3.75 6-3.75 6 0V17M7 7.01l.01-.011"
             />
           </svg>
-        </button>
+        </div>
 
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+        <div>
+          <p class="text-sm text-gray-500">LinkedIn</p>
+          <p class="font-semibold text-gray-800 group-hover:text-blue-600">
+            Sabila Neilil Muna
+          </p>
+        </div>
+      </a>
+
+      <!-- Instagram -->
+      <a
+        href="#"
+        class="flex items-center gap-4 p-5 rounded-2xl bg-white shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 group"
+      >
+        <div
+          class="w-14 h-14 flex items-center justify-center rounded-full bg-pink-100 group-hover:bg-pink-500 transition"
         >
           <svg
-            class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
-            role="img"
+            class="w-7 h-7 text-pink-600 group-hover:text-white transition"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
           >
             <path
-              d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.8"
+              d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8"
+            />
+            <path
+              stroke-width="1.8"
+              d="M3 16V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.8"
+              d="m17.5 6.51l.01-.011"
             />
           </svg>
-        </button>
+        </div>
 
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
-        >
-          <svg
-            class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
-            role="img"
-            viewBox="0 0 256 256"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g>
-              <path
-                d="M218.123122,218.127392 L180.191928,218.127392 L180.191928,158.724263 C180.191928,144.559023 179.939053,126.323993 160.463756,126.323993 C140.707926,126.323993 137.685284,141.757585 137.685284,157.692986 L137.685284,218.123441 L99.7540894,218.123441 L99.7540894,95.9665207 L136.168036,95.9665207 L136.168036,112.660562 L136.677736,112.660562 C144.102746,99.9650027 157.908637,92.3824528 172.605689,92.9280076 C211.050535,92.9280076 218.138927,118.216023 218.138927,151.114151 L218.123122,218.127392 Z M56.9550587,79.2685282 C44.7981969,79.2707099 34.9413443,69.4171797 34.9391618,57.260052 C34.93698,45.1029244 44.7902948,35.2458562 56.9471566,35.2436736 C69.1040185,35.2414916 78.9608713,45.0950217 78.963054,57.2521493 C78.9641017,63.090208 76.6459976,68.6895714 72.5186979,72.8184433 C68.3913982,76.9473153 62.7929898,79.26748 56.9550587,79.2685282 M75.9206558,218.127392 L37.94995,218.127392 L37.94995,95.9665207 L75.9206558,95.9665207 L75.9206558,218.127392 Z M237.033403,0.0182577091 L18.8895249,0.0182577091 C8.57959469,-0.0980923971 0.124827038,8.16056231 -0.001,18.4706066 L-0.001,237.524091 C0.120519052,247.839103 8.57460631,256.105934 18.8895249,255.9977 L237.033403,255.9977 C247.368728,256.125818 255.855922,247.859464 255.999,237.524091 L255.999,18.4548016 C255.851624,8.12438979 247.363742,-0.133792868 237.033403,0.000790807055"
-              ></path>
-            </g>
-          </svg>
-        </button>
-      </div>
+        <div>
+          <p class="text-sm text-gray-500">Instagram</p>
+          <p class="font-semibold text-gray-800 group-hover:text-pink-600">
+            Sabila Neilil Muna
+          </p>
+        </div>
+      </a>
     </div>
   </div>
 </template>
